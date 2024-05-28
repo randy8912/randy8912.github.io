@@ -6,6 +6,7 @@
     <title>Randy's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
         </div>
     </header>
     <main>
-        <section id="introduction">
+        <section id="introduction">     
             <div class="container">
                 <h1>Hi, I'm Randy.</h1>
                 <p>I'm a software programmer specializing in building exceptional digital experiences. Ever since I was a child I was fascinated by technology. I grew up watching and reading science-fiction. I believe this stimulated a part of my mind which resulted in my hunger to learn about the world and how it works.</p>
@@ -28,16 +29,20 @@
             <div class="container">
                 <h2>My Projects</h2>
                 <div class="project-list">
-                    <div class="project">
-                        <h3>Mushroom Binary Classification</h3>
-                        <p>In this project, we aim to build a machine learning model to classify mushrooms as either poisonous or edible. This classification is crucial for safety and public health as consuming poisonous mushrooms can be dangerous. We will use a dataset from Kaggle that contains various features of mushroom species to build our model.</p>
-                        <a href="https://github.com/randy8912/Mushroom_BiCla" target="_blank">Read more</a>
-                    </div>
-                    <div class="project">
-                        <h3>Global COVID-19 Analysis</h3>
-                        <p>The COVID-19 pandemic has had a profound impact on global health, economies, and daily life. Analyzing the progression of COVID-19 can provide valuable insights into how different regions have been affected and how they responded to the pandemic. This analysis will utilize a comprehensive dataset from Kaggle, covering global COVID-19 data.</p>
-                        <a href="https://github.com/randy8912/Covid-19-Global-Analysis" target="_blank">Read more</a>
-                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h3 class="card-title">Mushroom Binary Classification</h3>
+                          <p class="card-text">In this project, we aim to build a machine learning model to classify mushrooms as either poisonous or edible. This classification is crucial for safety and public health as consuming poisonous mushrooms can be dangerous. We will use a dataset from Kaggle that contains various features of mushroom species to build our model.</p>
+                          <a href="https://github.com/randy8912/Mushroom_BiCla" class="btn btn-primary" target="_blank">Read more</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">Global COVID-19 Analysis</h4>
+                          <p class="card-text">The COVID-19 pandemic has had a profound impact on global health, economies, and daily life. Analyzing the progression of COVID-19 can provide valuable insights into how different regions have been affected and how they responded to the pandemic. This analysis will utilize a comprehensive dataset from Kaggle, covering global COVID-19 data.</p>
+                          <a href="https://github.com/randy8912/Covid-19-Global-Analysis" class="btn btn-primary" target="_blank">Read more</a>
+                        </div>
+                      </div>
                 </div>
             </div>
         </section>
