@@ -1,29 +1,74 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+/* Reset some basic elements */
+body, h1, h2, p, a {
     margin: 0;
     padding: 0;
-}
-
-header {
-    background-color: #1e1e1e;
-    padding: 20px;
-    text-align: center;
-}
-
-nav a {
-    color: #61dafb;
-    margin: 0 15px;
     text-decoration: none;
+    color: inherit;
+    font-family: 'Arial', sans-serif;
 }
 
-nav a:hover {
-    text-decoration: underline;
+/* General body styling */
+body {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    line-height: 1.6;
 }
 
+/* Container styling for consistent padding */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header styling */
+header {
+    background-color: #0a192f;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #64ffda;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ccd6f6;
+}
+
+/* Introduction section styling */
+#introduction {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#introduction h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Projects section styling */
 #projects {
-    padding: 20px;
+    padding: 60px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 .project-list {
@@ -33,15 +78,53 @@ nav a:hover {
 }
 
 .project {
-    background-color: #282c34;
+    background-color: #112240;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
-    width: 30%;
+    width: 45%;
 }
 
-footer {
-    background-color: #1e1e1e;
+.project h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+}
+
+.project p {
+    margin-bottom: 20px;
+}
+
+.project a {
+    color: #64ffda;
+    transition: color 0.3s;
+}
+
+.project a:hover {
+    color: #ccd6f6;
+}
+
+/* Contact section styling */
+#contact {
     text-align: center;
-    padding: 10px;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact a {
+    color: #64ffda;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #ccd6f6;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0a192f;
+    text-align: center;
+    padding: 20px 0;
 }

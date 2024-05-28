@@ -3,37 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects</title>
+    <title>Randy's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="https://github.com/yourusername">GitHub</a>
-            <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="container">
+            <nav>
+                <a href="https://github.com/randy8912" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/randy-saija-9569511a3/" target="_blank">LinkedIn</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
     <main>
+        <section id="introduction">
+            <div class="container">
+                <h1>Hi, I'm Randy.</h1>
+                <p>I'm a software programmer specializing in building exceptional digital experiences. Ever since I was a child I was fascinated by technology. I grew up watching and reading science-fiction. I believe this stimulated a part of my mind which resulted in my hunger to learn about the world and how it works. </p>
+            </div>
+        </section>
         <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-list">
-                <div class="project">
-                    <h3>Mushroom Binary Classification</h3>
-                    <p>In this project, we aim to build a machine learning model to classify mushrooms as either poisonous or edible. This classification is crucial for safety and public health as consuming poisonous mushrooms can be dangerous. We will use a dataset from Kaggle that contains various features of mushroom species to build our model.</p>
-                    <a href="https://github.com/randy8912/Mushroom_BiCla">Read more</a>
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <h3>Mushroom Binary Classification</h3>
+                        <p>In this project, we aim to build a machine learning model to classify mushrooms as either poisonous or edible. This classification is crucial for safety and public health as consuming poisonous mushrooms can be dangerous. We will use a dataset from Kaggle that contains various features of mushroom species to build our model.</p>
+                        <a href="https://github.com/randy8912/Mushroom_BiCla" target="_blank">Read more</a>
+                    </div>
+                    <div class="project">
+                        <h3>Global COVID-19 Analysis</h3>
+                        <p>The COVID-19 pandemic has had a profound impact on global health, economies, and daily life. Analyzing the progression of COVID-19 can provide valuable insights into how different regions have been affected and how they responded to the pandemic. This analysis will utilize a comprehensive dataset from Kaggle, covering global COVID-19 data.</p>
+                        <a href="https://github.com/randy8912/Covid-19-Global-Analysis" target="_blank">Read more</a>
+                    </div>
                 </div>
-                <div class="project">
-                    <h3>Global COVID-19 Analysis</h3>
-                    <p>The COVID-19 pandemic has had a profound impact on global health, economies, and daily life. Analyzing the progression of COVID-19 can provide valuable insights into how different regions have been affected and how they responded to the pandemic. This analysis will utilize a comprehensive dataset from Kaggle, covering global COVID-19 data.</p>
-                    <a href="https://github.com/randy8912/Covid-19-Global-Analysis">Read more</a>
-                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:Randy.s@live.nl">Randy.s@live.nl</a></p>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Randy Saija</p>
+        <div class="container">
+            <p>&copy; 2024 Randy Saija</p>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
